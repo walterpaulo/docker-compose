@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  nodejs:
+  javaapi:
     container_name: api-encript-java
     image: walterpaulo/api-encript-java
     ports:
