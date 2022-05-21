@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  nodejs:
+    container_name: api-encript-java
+    image: walterpaulo/api-encript-java
+    ports:
+      - "80:8080"
